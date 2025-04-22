@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f9ff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #00274c;
+  }
+  
+  a {
+    color: #00529b;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Div #1: Hero Banner */
+  #hero-banner {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU1NSbKaTzpEV-Fziuv6lv8SL6H8e9EUmtfA&s');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+    background-color: #3f4144;
+  }
+  
+  /* Div #2: Content Container */
+  .content-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  /* Div #3: Players Section */
+  .players-section {
+    background-color: #b3a7a7;
+    border: 2px solid #0d61ba;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  /* Gallery Styling */
+  .gallery-section {
+    margin: 30px 0;
+  }
+  
+  .player-img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  /* Video Styling */
+  .video-section {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #00274c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
